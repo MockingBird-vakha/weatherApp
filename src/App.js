@@ -10,7 +10,7 @@ function App() {
 
   const serch = e =>{
     if(e.key === 'Enter' || e.onClick)
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},{state}&appid=${api.key}`)
+    fetch(`!!!!!!!!!!!!!!!openweathermap/data/2.5/weather?q=${city},{state}&appid=${api.key}`)
       .then(res => res.json()).then(data=>{
         console.log(data);
         setWeather(data);
@@ -18,7 +18,7 @@ function App() {
       })
   }
   function handleCkick(){
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},{state}&appid=${api.key}`)
+    fetch(`!!!!!!!!!!openweathermap/data/2.5/weather?q=${city},{state}&appid=${api.key}`)
       .then(res => res.json()).then(data=>{
         console.log(data);
         setWeather(data);
